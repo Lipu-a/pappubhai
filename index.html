@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Academy</h1>
+        <nav id="main-nav">
+            <button data-section="dashboard">Dashboard</button>
+            <button data-section="phishing">Phishing</button>
+            <button data-section="passwordAttacks">Password Attacks</button> <!-- Changed to match JS key -->
+            <button data-section="malware">Malware</button>
+            <button data-section="profile">Profile</button>
+        </nav>
+    </header>
+
+    <main id="app-content">
+        <section id="dashboard" class="content-section active">
+            <h2>Welcome to Cybersecurity Academy!</h2>
+            <p>Select a module to start learning about cyber attack techniques.</p>
+            <!-- Progress summary will be loaded here by JavaScript -->
+        </section>
+
+        <!-- Module sections will be populated by JavaScript -->
+        <section id="phishing" class="content-section">
+            <!-- Content, quiz, simulation for Phishing will be loaded here by JS -->
+        </section>
+
+        <section id="passwordAttacks" class="content-section">
+            <!-- Content, quiz, simulation for Password Attacks will be loaded here by JS -->
+        </section>
+
+        <section id="malware" class="content-section">
+            <!-- Content, quiz, simulation for Malware will be loaded here by JS -->
+        </section>
+
+        <section id="profile" class="content-section">
+            <!-- User profile & detailed progress will be loaded here by JS -->
+        </section>
+
+    </main>
+
+    <!-- <footer>
+        <p>&copy; 2023 CyberGuard Academy</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
